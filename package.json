@@ -1,0 +1,15 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:prod": "NODE_ENV=production seamless .",
+    "start:dev": "seamless .",
+    "start:watch": "nodemon -w server/ --exec \"npm run start:dev\""
+  },
+  "devDependencies": {
+    "seamless": "https://github.com/maekoos/seamless",
+    "nodemon": "^2.0.15"
+  }
+}

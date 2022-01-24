@@ -1,0 +1,4 @@
+node_modules/
+
+# Remove this and gitignore wherever you choose to save your generated api file.
+api.js
